@@ -35,7 +35,7 @@ No context switching. No boilerplate. Just working code.
 **Preview environments and artifacts.** Optionally spin up Docker Compose previews per branch (identified by `casper/<task-uuid>`) via `.caspers/preview.yml`. Routing is label-driven through your server-side proxy (Caddy/Traefik/Nginx).  
 Preview jobs can also generate **build artifacts** such as APK files, compiled binaries, static builds, or other downloadable outputs so you can test results immediately without merging the code.
 
-**Review-driven iteration.** Post a GitHub review, GitLab comment, or Slack thread reply and Caspers re-runs the agent with your feedback, force-pushes the branch, and waits for another review -- up to 10 iterations.
+**Review-driven iteration.** Refine results directly from your code review workflow. Comment on a pull/merge request, leave feedback on specific lines of code (inline review comments), or respond in a discussion thread. Caspers picks up the feedback, re-runs the agent with your instructions, updates the branch, and waits for the next review.
 
 **Single agents or agent teams.** Run a single agent on a focused task, or assemble a team of agents that collaborate on a larger objective. Team members communicate with each other, decompose work, execute in parallel where possible, and merge the results — all within one task lifecycle.
 

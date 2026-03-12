@@ -28,7 +28,8 @@ No context switching. No boilerplate. Just working code.
 
 **Distributed execution.** Agents run inside ephemeral Docker containers with isolation by default. Workers scale horizontally — spin up additional worker instances and they automatically register with the API and begin accepting jobs.
 
-**Preview environments.** Optionally spin up Docker Compose previews per branch (identified by `casper/<task-uuid>`) via `.caspers/preview.yml`. Routing is label-driven through your server-side proxy (Caddy/Traefik/Nginx).
+**Preview environments and artifacts.** Optionally spin up Docker Compose previews per branch (identified by `casper/<task-uuid>`) via `.caspers/preview.yml`. Routing is label-driven through your server-side proxy (Caddy/Traefik/Nginx).  
+Preview jobs can also generate **build artifacts** such as APK files, compiled binaries, static builds, or other downloadable outputs so you can test results immediately without merging the code.
 
 **Review-driven iteration.** Post a GitHub review, GitLab comment, or Slack thread reply and Caspers re-runs the agent with your feedback, force-pushes the branch, and waits for another review -- up to 10 iterations.
 

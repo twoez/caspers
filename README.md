@@ -20,6 +20,8 @@ No context switching. No boilerplate. Just working code.
 
 ## Key Features
 
+**Work from anywhere.** Create and refine tasks from your phone, laptop, or anywhere in the world. Describe work in natural language and receive previews or artifacts without needing a local development environment.
+
 **Works where you already work.** Submit tasks from GitHub Issues, GitLab Issues, Slack, or directly via the REST API. Caspers normalizes all inputs into the same pipeline -- no special setup per channel.
 
 **Your LLM, your terms.** Use Claude, GPT-4o, Gemini, or any OpenAI-compatible endpoint (Ollama, vLLM, LM Studio) with an API key. Or skip the API entirely and use your existing Claude or Gemini subscription via the CLI tools -- zero additional cost.

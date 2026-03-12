@@ -1,12 +1,20 @@
 # 👻 Caspers
 
+> 🚧 **Currently in development**  
+> Caspers is actively being built and will be released soon.  
+> If you're interested, ⭐ follow/watch this repository for updates and early releases.
+
 **Agentic coding system** - receive tasks from Slack, GitHub, GitLab or a REST API, dispatch them to an LLM agent running inside an isolated environment, validate changes through a multi-step pipeline, open pull requests, and iterate on review feedback.
 
 ---
 
 ## Overview
 
-Caspers bridges the gap between developer intent and working code. You describe what you want in a GitHub issue, a Slack message or a REST call and Caspers agentically implements it, validates it, opens a pull request, and refines it based on your review. No context switching. No boilerplate. Just working code.
+Caspers bridges the gap between developer intent and working code. You describe what you want in a GitHub issue, a Slack message or a REST call and Caspers agentically implements it, validates it, opens a pull request, and refines it based on your review.
+
+Behind the scenes, Caspers acts like your own team of **AI ghost producers** — quietly turning tasks and ideas into working code while you stay focused on the bigger picture.
+
+No context switching. No boilerplate. Just working code.
 
 ---
 
